@@ -6,6 +6,10 @@ a{
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+a:hover{
+    transition: all 0.3s ease-in-out;
+}
+
 #burger{
     display: none;
 }
@@ -27,6 +31,9 @@ header{
     flex-wrap: wrap;
     align-items: center;
    
+}
+header a:hover {
+    color: #30CD8A;
 }
 header nav ul{
     list-style: none;
@@ -112,6 +119,10 @@ header nav ul a{
     width: fit-content;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+}
+.btn1 :hover{
+    background-color: white;
+    color: #30CD8A;
 }
 .btn2{
     font-size: 16px;
