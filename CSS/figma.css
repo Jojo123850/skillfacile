@@ -61,14 +61,13 @@ header nav ul a{
     display: none;
 
 }
-#acc:hover #submenu{
+#acc:hover #submenu {
     background-color: white;
     display: grid;
     list-style: none;
     gap: 15px;
     position: absolute;
     padding: 15px 0;
-
 
 }
 
@@ -121,8 +120,8 @@ header nav ul a{
     transition: all 0.3s ease-in-out;
 }
 .btn1 :hover{
-    background-color: white;
-    color: #30CD8A;
+   color: #30CD8A;
+   background-color: #FFFFFF;
 }
 .btn2{
     font-size: 16px;
@@ -598,17 +597,25 @@ footer .footer1{
     #section1 {
         grid-template-columns: 1fr;
     }
-
+    #section2 #ci1{
+        display: block;
+        width: 100%;
+    }
+    #section2 #ci1 .btn3{
+        display: block;
+        margin-top: 50px;
+    }
     #section1 img{
         align-items: center;
         margin-top: 50px;
     }
-    #section4{
-        grid-template-columns: 1fr;
+    #section3 .artsec3{
+        width: 80%;
     }
     #section4 .div00{
         grid-template-columns: 1fr;
     }
+  
     #section5{
         grid-template-columns: 1fr;
     }
@@ -620,6 +627,20 @@ footer .footer1{
         justify-self: center;
         margin-top: 50px;
     }
+  #section4 .div00 .artdiv00{
+    grid-template-columns: 1fr;
+  } 
+  #section6{
+    display: grid;
+    inline-size: fit-content;
+  } 
+  footer .footer1{
+    display: block;
+
+  }
+  footer .footer1 .art111{
+    margin-bottom: 10px;
+  }
    
 }
 
